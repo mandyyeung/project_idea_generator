@@ -107,7 +107,7 @@ header h1 {
 .body-container {
     margin: 275px auto;
 }
-input#main {
+input#idea_input {
     font-family: 'elena-web-basic', georgia;
     width: 100%;
     padding: 15px 25px;
@@ -122,15 +122,15 @@ input#main {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: rgba(255, 255, 255, 0.3);  
+   color: rgba(255, 255, 255, 0.3);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(255, 255, 255, 0.3);  
+   color: rgba(255, 255, 255, 0.3);
 }
 
-:-ms-input-placeholder {  
-   color: rgba(255, 255, 255, 0.3);  
+:-ms-input-placeholder {
+   color: rgba(255, 255, 255, 0.3);
 }
 button.btn {
     width: 100%;

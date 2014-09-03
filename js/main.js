@@ -14,3 +14,8 @@ function getIndex() {
 	previousIndex = index;
 	return index;
 }
+
+$('#submit').click(function(){
+  idea.push($('#idea_input').val());
+  console.log(idea);
+})
