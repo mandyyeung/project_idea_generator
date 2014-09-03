@@ -97,7 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background: url('https://s3.amazonaws.com/ooomf-com-files/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg') no-repeat center center;
+    min-height: 100%;
+    background: url('https://s3.amazonaws.com/ooomf-com-files/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
