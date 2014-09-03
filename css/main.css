@@ -98,10 +98,53 @@ textarea {
    ========================================================================== */
 body {
     min-height: 100%;
-    background: url('https://s3.amazonaws.com/ooomf-com-files/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg') no-repeat center center fixed;
+    background: url('https://s3.amazonaws.com/ooomf-com-files/HHEvkhEsQLaNDRkui4fg_fullsize.jpg') no-repeat center center fixed;
     background-size: cover;
 }
+header h1 {
+    color: #fff;
+}
+.body-container {
+    margin: 275px auto;
+}
+input#main {
+    font-family: 'elena-web-basic', georgia;
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 3.0em;
+    background: rgba(0, 0, 0, 0.25);
+    margin: 15px 0px;
+    color: #fff!important;
+    border: none;
+}
+::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.3);
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255, 255, 255, 0.3);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255, 255, 255, 0.3);  
+}
+
+:-ms-input-placeholder {  
+   color: rgba(255, 255, 255, 0.3);  
+}
+button.btn {
+    width: 100%;
+    background: none;
+    background-color: none;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 10px 0px;
+    border: 3px solid #fff;
+    border-radius: 0px;
+}
 
 
 
