@@ -13,11 +13,11 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <script src="{{ url_for('static', filename="js/vendor/modernizr-2.6.2.min.js") }}"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -51,11 +51,11 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ url_for('static', filename="js/vendor/jquery-1.10.2.min.js") }}><\/script>')</script>
+        <script src="{{ url_for('static', filename="js/plugins.js") }}"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{ url_for('static', filename="js/main.js") }}"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
