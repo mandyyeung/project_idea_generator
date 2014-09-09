@@ -27,10 +27,17 @@
         <!-- Add your site or application content here -->
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <header>
                         <h1>Project Idea Generator</h1>
                     </header>
+                </div>
+                <div class="col-md-6">
+                    {% if session['name'] %}
+                    <p>Hello, {{ session['name']}}</p>
+                    {% else %}
+                    <a href="/login"><button>Log In</button></a>
+                    {% endif %}
                 </div>
             </div>
             <div class="body-container">
