@@ -98,17 +98,18 @@ textarea {
    ========================================================================== */
 body {
     min-height: 100%;
-    background: url('https://s3.amazonaws.com/ooomf-com-files/HHEvkhEsQLaNDRkui4fg_fullsize.jpg') no-repeat center center fixed;
+    background: url('https://unsplash.imgix.net/44/Ji9qebSpSlSbnsWRZnDX__MG_9520.jpg?q=75&fm=jpg&auto=format&s=7af2a626f709bd317c812607949e1e8c') no-repeat center center fixed;
     background-size: cover;
 }
 header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
 .body-container {
-    margin: 275px auto;
+    margin: 150px auto;
 }
 input#idea_input {
-    font-family: 'elena-web-basic', georgia;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     padding: 15px 25px;
     font-size: 3.0em;
@@ -145,8 +146,6 @@ button.btn {
     border: 3px solid #fff;
     border-radius: 0px;
 }
-
-
 
 
 
